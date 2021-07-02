@@ -15,13 +15,10 @@ First you need to register your application at <https://peeringdb.com/oauth2/app
 
 ### URLs
 
-```python
-PDB_ENDPOINT = "https://auth.peeringdb.com/"
+- `ACCESS_TOKEN_URL` = https://auth.peeringdb.com/oauth2/token/
+- `AUTHORIZE_URL` = https://auth.peeringdb.com/oauth2/authorize/
+- `USER_PROFILE_URL` = https://auth.peeringdb.com/profile/v1
 
-PDB_OAUTH_ACCESS_TOKEN_URL = '{}oauth2/token/'.format(PDB_ENDPOINT)
-PDB_OAUTH_AUTHORIZE_URL = '{}oauth2/authorize/'.format(PDB_ENDPOINT)
-PDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)
-```
 
 ### Fields
 
